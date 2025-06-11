@@ -2,6 +2,11 @@ import { useState } from "react";
 import { FiExternalLink, FiGithub, FiX } from "react-icons/fi";
 import Modal from "react-modal";
 import { motion } from "framer-motion";
+import swpImg from "../assets/images/swp.png";
+import jobFinderImg from "../assets/images/job finder.png";
+import calculatorImg from "../assets/images/calculator.png";
+import musicImg from "../assets/images/music.png";
+import chatappImg from "../assets/images/chatapp.png";
 
 type Project = {
   id: number;
@@ -30,7 +35,7 @@ const Projects = () => {
       id: 1,
       title: "SWP Mentor Booking",
       category: "Web",
-      image: "src\\assets\\images\\swp.png",
+      image: swpImg,
       description:
         "A web application developed for SWP391 course that allows students to book mentor sessions based on required skills using wallet points. The system includes features for account management project group creation mentor scheduling feedback and reporting optimizing mentor support and improving student learning outcomes.",
       tags: ["React", "TypeScript", "TailwindCSS", "C#", "ASP.NET Core Web API", "SQL Server"],
@@ -43,7 +48,7 @@ const Projects = () => {
       id: 2,
       title: "Job Finder App",
       category: "Desktop",
-      image: "src\\assets\\images\\job finder.png",
+      image: jobFinderImg,
       description:
         "This is a WPF (.NET 8) desktop application for job finding and recruitment management. It allows users to sign up, apply for jobs, upload CVs, and manage job postings. Companies can post jobs, view applicants, and manage company information. The app uses a SQL Server database and supports PDF and Word CV viewing.",
       tags: ["C#", "WPF", "SQL Server"],
@@ -56,7 +61,7 @@ const Projects = () => {
       id: 3,
       title: "Calculator App",
       category: "Web",
-      image: "src\\assets\\images\\calculator.png",
+      image: calculatorImg,
       description: "",
       tags: ["HTML", "CSS", "JavaScript"],
       links: {
@@ -68,7 +73,7 @@ const Projects = () => {
       id: 4,
       title: "Music Player App",
       category: "Web",
-      image: "src\\assets\\images\\music.png",
+      image: musicImg,
       description: "",
       tags: ["React", "TypeScript", "Bootstrap"],
       links: {
@@ -80,7 +85,7 @@ const Projects = () => {
       id: 5,
       title: "Chat App",
       category: "Web",
-      image: "src\\assets\\images\\chatapp.png",
+      image: chatappImg,
       description: "ChitChat is a modern real-time chat application built with Vue 3, TypeScript, and Vite. It provides a seamless and responsive user experience for messaging, featuring a clean and intuitive interface. The application is designed to support real-time communication using WebSocket technology and includes essential features like user authentication, chat channels, and message history.",
       tags: ["Vue", "TypeScript", "TailwindCSS", "Elixir", "Phoenix", "PostgreSQL", "WebSocket"],
       links: {

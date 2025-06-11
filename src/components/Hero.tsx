@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
+import avatarImg from "../assets/images/happy-smiling-young-man-avatar-3d-portrait-of-a-man-cartoon-character-people-illustration-isolated-on-white-background-vector-removebg-preview.png";
 
 const Hero = () => {
   return (
@@ -83,7 +84,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-pink-500 rounded-full blur-xl opacity-30 animate-pulse"></div>
               <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/10 flex items-center justify-center bg-gradient-to-br from-purple-200 via-pink-200 to-yellow-100">
                 <img
-                  src="src\assets\images\happy-smiling-young-man-avatar-3d-portrait-of-a-man-cartoon-character-people-illustration-isolated-on-white-background-vector-removebg-preview.png"
+                  src={avatarImg}
                   alt="Quach Gia Bao 3D Cartoon Avatar"
                   className="object-contain drop-shadow-lg"
                 />
